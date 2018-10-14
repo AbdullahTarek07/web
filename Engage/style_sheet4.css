@@ -1,0 +1,546 @@
+*
+{
+    font-family: 'Open Sans', sans-serif;
+    transition: 1s;
+   /* overflow-x: hidden;*/
+}
+.home
+{
+    height:800px;
+    background-image: url(photos/bus.jpg);
+    background-size: cover;
+    background-position: center top;
+}
+.home .box 
+{
+    width:100%;
+    height:100%;
+    background-color: rgba(0,0,0,0.7);
+}
+.navbar
+{
+    background-color: transparent!important;
+    padding-top:20px;
+}
+.navbar img
+{
+    width:136px;
+    height:36px;
+}
+.navbar ul li a
+{
+    color:#fff;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 14px;
+    margin-left:10px;
+}
+#hola
+{
+    background-color:#fff;
+    color:black;
+    border-radius:3px;
+    transition:all 0.5s;
+}
+#hola:hover
+{
+    background-color: rgb(76, 175, 80);
+    color:white;
+}
+.fixed
+{
+    width:40px;
+    height:80px;
+    background-color: #fff;
+    position:fixed;
+    top:200px;
+    right:0px;
+    border-top-left-radius:2px;
+    border-bottom-left-radius:2px;
+    z-index:1233;
+}
+.fixed i
+{
+    color:#192326;
+    margin:10px 0px;
+    font-size:18px;
+    padding-left:8px;
+}
+.ola:hover
+{
+    color:dodgerblue;
+}
+.pola:hover
+{
+    color:dodgerblue;
+}
+.first a
+{
+    text-decoration: none;
+    background-color:#fff;
+    color:#000;
+    padding:5px 15px;
+    letter-spacing: 1px;
+    border-radius:3px;
+    position:fixed;
+    top:205px;
+    right:50;
+    opacity:1;
+    transition:all 1s;
+}
+.second a
+{
+    text-decoration: none;
+    background-color:#fff;
+    color:#000;
+    padding:5px 15px;
+    letter-spacing: 1px;
+    border-radius:3px;
+    position:fixed;
+    top:245px;
+    right:50;
+    opacity:1;
+    transition: all 1s;
+}
+
+.first p a:hover
+{
+    background-color: dodgerblue;
+    color:#fff;
+}
+.second p a:hover
+{
+    background-color: dodgerblue;
+    color:#fff;
+}
+.home .main
+{
+    margin-top:250px;
+}
+.home .main p
+{
+    color:#fff;
+    font-size:24px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    margin-bottom:30px;
+}
+.home .main h1
+{
+    color:#fff;
+    font-size:50px;
+    font-weight:800;
+    letter-spacing: 2px;
+    margin-bottom:40px;
+}
+.home .main .btn
+{
+    background-color: forestgreen;
+    padding:20px 35px;
+    color:#fff;
+    font-size:20px;
+    font-weight:500;
+    border-radius:5px;
+    font-size:20px;
+    font-weight:600;
+}
+.main .btn:hover
+{
+    background-color: #fff;
+    color:#000;
+}
+@media(max-width:767px)
+{
+    .home
+    {
+        height:1100px;
+    }
+}
+.media i
+{
+    color:forestgreen;
+}
+.media .media-body p
+{
+   color:#888;
+}
+.lion
+{
+    background-color: rgb(248,248,248);
+}
+.lion .container
+{
+    padding-top:50px;
+}
+.lion h2
+{
+    color:rgb(48, 48, 48);
+    font-size:36px;
+    line-height: 36px;
+    font-weight: 400;
+    margin-bottom:20px;
+}
+.lion p
+{
+    color:#888;
+    font-size:20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.card p
+{
+    font-size:16px;
+    color:#888;
+    font-weight:400px;
+}
+.card  a
+{
+    text-decoration:none;
+    color:#888;
+    font-size:16px;
+}
+.card a:hover span
+{
+    color:forestgreen;
+}
+.card a:hover i
+{
+    transform:translateX(10px);
+    color:forestgreen;
+}
+.card img:hover 
+{
+    transform: scale(1.1);
+}
+.card
+{
+    overflow: hidden;
+}
+.tiger .media-body p
+{
+    font-size:15px;
+    color:rgb(104,104,104);
+    position: relative;
+    bottom:3px;
+    margin-left:10px;
+}
+.tigeress
+{
+    margin-top:100px;
+}
+.tigeress .paragraph
+{
+    font-size:15px;
+    font-weight:400;
+    color:rgb(104,104,104);
+    line-height: 27.9px;
+    margin-bottom: 30px;
+}
+.tigeress h3
+{
+    font-size: 30px;
+    font-weight:400;
+    margin-bottom: 20px;
+}
+.tigeress .btn
+{
+    color:#fff;
+    font-size:12px;
+    font-weight: 600;
+    background-color: forestgreen;
+    margin-top:30px;
+    padding:15px 18px;
+}
+.tigeress .btn:hover
+{
+     background-color: black;
+}
+.tiger
+{
+    margin-bottom:50px;
+}
+.cheetah
+{
+    background-color: rgb(248,248,248);
+}
+.leo p
+{
+    background-color: #fff;
+    padding:20px;
+}
+.leo span 
+{
+    margin-left:20px;
+}
+.carousel-indicators
+{
+    position:relative;
+    top:0px;
+}
+.carousel-indicators i:hover
+{
+    color:forestgreen;
+}
+.cheetah .leopard i
+{
+    color:forestgreen;
+}
+.scream
+{
+    height:500px;
+    background-image: url(photos/build.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.scream .box
+{
+    width:100%;
+    height:100%;
+    background-color: rgba(0,0,0,0.6);
+}
+.scream .container
+{
+   padding-top:70px;
+}
+.scream h2
+{
+    font-size:40px;
+    color:#fff;
+}
+.scream p
+{
+    color:#fff;
+    font-size:24px;   
+}
+.scream .btn
+{
+    background-color: forestgreen;
+    padding:12px 15px;
+    color:#fff;
+    font-size:14px;
+    font-weight:600;
+    transition:.2s;
+    position:relative;
+}
+.scream button i
+{
+    position:relative;
+    right:-50px;
+    opacity: 0;
+    transition: .2s;
+}
+.scream .btn:hover i
+{
+    right:0;
+    opacity:1;
+    color:#000;
+}
+.scream .btn:hover
+{
+    background-color: #fff;
+    color:#000;
+    right:5px;
+}
+@media(max-width:512px)
+{
+    .scream
+    {
+        height:800px;
+    }
+}
+.andrea .arnold
+{
+    margin-top:80px;
+}
+.arnold h2
+{
+    font-size:36px;
+    font-weight: 400;
+}
+.arnold p
+{
+   font-size:21px;
+   font-weight: 400;
+   color:#888;
+   margin:20px 0px;
+}
+.silvester h5
+{
+    margin:20px 0px;
+    font-size:18px;
+    font-weight: 400;
+}
+.silvester p
+{
+    color:#888;
+    font-size:15px;
+    font-weight: 400;
+}
+.silvester
+{
+    padding-bottom:70px;
+}
+.san
+{
+    background-color: forestgreen;
+}
+.san h2
+{
+    color:#fff;
+    font-size:36px;
+    font-weight: 400;
+}
+.san p
+{
+    color:#fff;
+    font-size:21px;
+    font-weight: 400;
+}
+.san .btn
+{
+    color:#000;
+    background-color: #fff;
+    padding:15px 18px;
+    font-size:15px;
+    font-weight:600;
+    position:relative;
+    top:20px
+}
+.san .btn:hover
+{
+    color:#fff;
+    background-color:#000;
+}
+.super
+{
+    background-color: #1f2021;
+}
+.super i
+{
+    color:#888;
+}
+.super h5
+{
+    color:#fff;
+    margin-bottom:20px;
+}
+#map
+{
+    position:relative;
+}
+#map:after
+{
+    content:"";
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    background:url(photos/map.png);
+    background-repeat: no-repeat;
+    opacity:.11;
+}
+#icon
+{
+   transform:rotate(90deg);
+}
+#first p
+{
+    color:#888;
+    font-size:14px;
+    font-weight: 400;
+}
+#second p
+{
+    position: relative;
+    bottom:3px;
+    font-size:14px;
+    font-weight: 400;
+}
+#third p
+{
+    position: relative;
+    bottom:3px;
+    font-size:14px;
+    font-weight: 400;
+}
+#third a
+{
+    color:#888;
+    text-decoration: none;
+    font-size:14px;
+    font-weight: 400;
+}
+#fourth a
+{
+    position: relative;
+    bottom:1px;
+    text-decoration: none;
+    color:#888;font-size:14px;
+    font-weight: 400;
+}
+#fourth p
+{
+    position: relative;
+    bottom:1px;
+    color:#888;
+    font-size:14px;
+    font-weight: 400;
+}
+#third a:hover
+{
+    color:dodgerblue;
+}
+#fourth a:hover
+{
+    color:dodgerblue;
+}
+footer
+{
+    background-color: rgb(25,25,25);
+    padding-top:20px;
+}
+footer p
+{
+    color:#888;
+    font-size:14px;
+}
+.inner i
+{
+    color:#888;
+    font-size:13px;
+    background-color: #1f2021;
+    padding:8px 8px;
+    border-radius:50%;
+    margin-right:5px
+}
+.inner a #f:hover
+{
+    color:#fff;
+    background-color: rgb(59, 89, 152);
+}
+.inner a #s:hover
+{
+    color:#fff;
+    background-color: rgb(221, 75, 57);
+}
+.inner a #t:hover
+{
+    color:#fff;
+    background-color: rgb(0, 123, 181);
+}
+.inner a #h:hover
+{
+    color:#fff;
+    background-color: rgb(0, 172, 237);
+}
+@media (min-width:309px)and(max-width:575px)
+{
+    .icon 
+    {
+        margin:auto;
+    }
+}
